@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="Dražen Orkić">
+    <meta name="description" content="Ovo je vježba sa zvučnim i audio zapisima">
+    <title>Vježba 4</title>
+</head>
+
+<body>
+    <h1>Multimedijski sadržaji u HTML-u</h1>
+    <p>Na web stranicama se nalaze i multimedijski sadržaji. <br> Multimedija podrazumijeva audio i video sadržaje.</p>
+    <p>HTML5 omogućava jednostavnu integraciju multimedije u web stranice.</p>
+
+    <h1>Audio</h1>
+    <p>Audio formati na webu trebaju biti u odgovrajućim formatima.
+        <br> Podržani formati su: <br>
+    <ul>
+        <li>mp3</li>
+        <li>wav</li>
+        <li>ogg</li>
+    </ul>
+
+    <audio controls>
+        <source src="file_example_OOG_1MG.ogg" controls="audio/ogg">
+        <source src="file_example_mp3.mp3" controls="audio/mpeg">
+    </audio>
+
+    <h1>Video</h1>
+    <p>
+        Za korištenje videa na webu, oni trebaju biti u podržanim fromatima. <br>
+        Podržani formati su:
+    <ul>
+        <li>mp4</li>
+        <li>webM</li>
+        <li>ogg</li>
+    </ul>
+    </p>
+    <video controls>
+        <source src="alina-kurson-mp4.mp4" type="video/mp4">
+        <source src="alina-kurson-ogg.ogg" type="video/ogg">
+    </video>
+    <video controls>
+        <source src="https://www.youtube.com/watch?v=VH06vF9Col8" type="video/mp4"> <!-- ne znam kako točno video s youtuba ubacit-->
+    </video>
+</body>
+
+</html>
