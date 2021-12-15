@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Dražen Orkić">
+    <meta name="description" content="Ovo je vježba ponavljanja">
+    <title>Vježba 12, ponavljanje_obrazac</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h2>Ukoliko želite naručiti neki od naših proizvoda, odaberite željene proizvode te upišite vaše podatke.
+            </h2>
+
+            <form name="Merch" method="post" enctype="text/plain" autocomplete="on">
+                <h4>Koje predmete želite naručiti?<h4>
+                        <label for="kapa">
+                            <figure><img src="kapa.jpg" alt="poderana zimska kapa" height="100" width="100">
+                                <figcaption>1000kn</figcaption>
+                            </figure>
+                        </label>
+                        <input id="kapa" name="merch" type="checkbox" value="kapa">
+                        <label for="čarape">
+                            <figure><img src="čarape.jpg" alt="poderane čarape" height="100" width="100">
+                                <figcaption>10kn</figcaption>
+                            </figure>
+                        </label>
+                        <input id="čarape" name="merch" type="checkbox" value="čarape">
+        </section>
+        <section>
+            <h4>Na koju adresu želite da vam pošaljemo predmete?</h4>
+            <input id="ime" name="imeiprezime" type="text" size="30" placeholder="Vaše Ime i Prezime" required> <br>
+            <br>
+            <input id="ulica" name="ulica_i_broj" type="text" size="30" placeholder="Ulica i kućni broj" required><br>
+            <br>
+            <input id="grad" name="grad" type="text" size="30" placeholder="Mjesto i poštanski broj" required>
+           <br><br> <input name="submit_btn" type="submit" value="Naruči">
+        </section>
+        </form>
+    </main>
+<br><hr><br>
+    <footer>&copy;Zabranjeno je svako preprodavanje stvari koje možete kupiti na mojoj stranici radi kupčeve osobne
+        dobiti!
+    </footer>
+</body>
+
+</html>
