@@ -1,0 +1,26 @@
+@import "varijable";
+@import "reset";
+
+@mixin naslov {
+font-family: $naslov;
+color: $zelena;
+font-size: 40px;  
+}
+
+h2, h1 {
+    @include naslov;
+}
+
+body {
+    background-color: $pozadina;
+    font-family: $text;
+    font-size: 18px;
+    margin: 10px;
+    nav { margin-left: 20px;
+    }
+}
+
+#mojaSlika {
+    height: 250px;
+    width: 300px;
+}
